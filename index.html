@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <title>Product landing page</title>
+    <style>
+        body {
+            background-image: linear-gradient(#eee, rgb(240, 231, 231));
+        }
+        
+        #header {
+            position: fixed;
+            margin-left: 3%;
+            top: 5%;
+            width: 70%;
+            height: auto;
+            bottom: 79%;
+        }
+        
+        img {
+            width: 10%;
+        }
+        
+        #nav-bar {
+            width: 80%;
+            height: 7%;
+            text-align: right;
+            background-color: #eee;
+            font-size: 150%;
+            font-weight: bold;
+            right: 1%;
+            margin-right: 5%;
+            margin-top: 3%;
+            position: fixed;
+        }
+        
+        a {
+            font-family: 'Times New Roman', Times, serif;
+            color: black;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            color: cornflowerblue;
+        }
+        
+        a::selection {
+            color: darkgoldenrod;
+        }
+        
+        section {
+            align-items: center;
+        }
+        
+        #email {
+            position: relative;
+            margin: 10%;
+            width: 230;
+            line-height: 2em;
+            height: auto;
+            top: 76px;
+            margin-left: 38%;
+            align-items: center;
+        }
+        
+        h3 {
+            font-size: 220%;
+            font-family: fantasy;
+            position: absolute;
+            top: 48px;
+            left: 45.5%;
+            align-items: center;
+            text-align: center;
+        }
+        
+        #btn {
+            position: relative;
+            text-align: center;
+            border: rgb(112, 240, 8)k;
+            border-radius: 10%;
+            top: 50px;
+            left: 41%;
+            height: 3.8%;
+            max-width: 130px;
+            background-color: rgb(112, 240, 8);
+            color: black;
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+        
+        #btn:hover {
+            background-color: rgb(43, 40, 40);
+            color: rgb(114, 212, 16);
+            cursor: pointer;
+        }
+        
+        i {
+            position: absolute;
+            right: 9%;
+            font-size: 650%;
+            color: orange;
+        }
+        
+        .div {
+            justify-self: left;
+            margin-left: 33%;
+            margin-bottom: 2%;
+        }
+        
+        #div1 {
+            display: flex;
+        }
+        
+        #div2 {
+            display: flex;
+        }
+        
+        #div3 {
+            display: flex;
+        }
+        
+        .divc {
+            flex-direction: column;
+        }
+        
+        #howitworks {
+            max-width: 560 px;
+            width: 400%;
+        }
+        
+        iframe {
+            width: 35%;
+            position: relative;
+            left: 36%;
+            margin-top: 7%;
+        }
+        
+        #pricing {
+            display: flex;
+            flex-direction: row;
+            margin-left: 21%;
+            align-items: center;
+            text-align: center;
+        }
+        
+        .h1 {
+            font-size: 290%;
+        }
+        
+        .ol {
+            border: solid;
+            border-color: black;
+            padding: 6%;
+            padding-bottom: 5%;
+            padding-top: 5%;
+        }
+        
+        .btn {
+            margin-top: 22%;
+            margin-left: 1%;
+            border: solid;
+            border-color: yellow;
+            background-color: yellow;
+            color: black;
+        }
+        
+        .btn:hover {
+            background-color: rgb(212, 212, 24);
+            color: blue;
+        }
+        
+        #footer {
+            width: 100%;
+            align-items: flex-end;
+            text-align: right;
+            background-color: rgb(228, 238, 234);
+            margin-top: 10%;
+            margin-right: 2%;
+            margin-left: 0%;
+            padding-right: 1%;
+            font-weight: bold;
+        }
+        
+        @media (min-height: 800px) {
+            p {
+                font-size: 10px;
+            }
+        }
+        
+        #my {
+            margin-left: 30%;
+            margin-right: 30%;
+            padding-bottom: 9%;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header">
+        <div>
+            <img src="https://i.pinimg.com/736x/71/b3/e4/71b3e4159892bb319292ab3b76900930.jpg" alt="No pic " id="header-img">
+        </div>
+    </header>
+    <nav id="nav-bar">
+        <ol>
+            <a href="#feature">Features&#160&#160&#160&#160&#160&#160&#160&#160</a>
+            <a href="#howitwork">How it works&#160&#160&#160&#160&#160&#160&#160</a>
+            <a href="#pricing">Pricing</a>
+    </nav>
+    <section>
+        <div id="my">
+            <h3>My WebPage</h3>
+            <form action=" https://www.freecodecamp.com/email-submit" id="form">
+                <input type="email" id="email" placeholder="default01@gmail.com" required><br>
+                <input type="submit" id="btn" value="Get started">
+            </form>
+        </div>
+    </section>
+    <section id="feature">
+        <div class="div" id="div1">
+            <i class="glyphicon glyphicon-cloud"></i>
+            <div class="divc">
+                <h2>Work less, get more</h2><br>
+                <p>We give you a chance to be more productive in different ways. You have to develope a method of finding the short way</p>
+            </div>
+        </div>
+
+        <div class="div" id="div2">
+            <i class="glyphicon glyphicon-cloud"></i>
+            <div class="divc">
+                <h2>Less hours, Money more</h2><br>
+                <p>No need to work from 9 to 5. Work only till you done today's work. The project, the client, the headache all mixed up and done in just few hours.</p>
+            </div>
+        </div>
+
+        <div class="div" id="div3">
+            <i class="glyphicon glyphicon-cloud"></i>
+            <div class="divc">
+                <h2>Work less, get more</h2><br>
+                <p>We give you a chance to be more productive in different ways. You have to develope a method of finding the short way</p>
+            </div>
+        </div>
+    </section>
+    <section id="howitwork">
+        <iframe id="video" height="315" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe>
+    </section>
+    <br><br><br>
+    <section id="pricing">
+        <ol class="ol">
+            <h1 class="h1">New chick</h1>
+            <h4>Lorem ipus</h4>
+            <p>Same here</p>
+            <p>Same here</p>
+            <p>Same here</p>
+            <input type="submit" class="btn">
+        </ol>
+        <ol class="ol">
+            <h1 class="h1">New chick</h1>
+            <h4>Lorem ipus</h4>
+
+            <p>Same here</p>
+            <p>Same here</p>
+            <p>Same here</p>
+            <input type="submit" class="btn">
+        </ol>
+        <ol class="ol">
+            <h1 class="h1">New chick</h1>
+            <h4>Lorem ipus</h4>
+
+            <p>Same here</p>
+            <p>Same here</p>
+            <p>Same here</p>
+            <input type="submit" class="btn">
+        </ol>
+    </section>
+
+    <footer id="footer">
+        <div id="iddiv">
+            <p>Contact</p>
+            <p><span>Email: default01@gmail.com &#160&#160</span><span>Contact: xxxxxxxx</span> </p>
+        </div>
+    </footer>
+</body>
+
+</html>
